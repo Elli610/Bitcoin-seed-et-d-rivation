@@ -24,5 +24,6 @@ Toutes nos fonctions tournent à 2 petits problèmes prêts :
    Deplus, on peut envoyer une clé privée dans seed_to_mnemo() puis envoyer la phrase mnémonique dans mnemo_to_seed(). On obtiendra bien la première clé privée.
    Cependant, si on tranforme notre clé privée en phrase mnémonique sur le site que vous nous avez fournis, la phrase ne correspond pas. 
 
-
+## note du 04/10/2022 :
+en réalité le second problème n'esxiste pas, nous comparions mal nos clés et celles du site https://iancoleman.io/bip39/ . 
 
